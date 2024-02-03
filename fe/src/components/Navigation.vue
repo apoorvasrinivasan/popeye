@@ -9,7 +9,7 @@
         </a>
       </div>
       <div class ="hidden lg:flex lg:gap-x-12">
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/" >Home</RouterLink>
         <RouterLink to="/about" v-if="isLogged">Todos</RouterLink>
         </div>
       <div class = "hidden lg:flex lg:flex-1 lg:justify-end">
