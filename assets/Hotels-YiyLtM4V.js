@@ -1,0 +1,1 @@
+import{e as o}from"./events-AnO8SkUM.js";import{c as t,t as s,d as n,o as r}from"./index-EhQuc-pO.js";const m={__name:"Hotels",setup(a){console.log("sda");const e=o();return console.log("wqedqwd"),(l,c)=>(r(),t("h1",null,s(n(e).hotels),1))}};export{m as default};
