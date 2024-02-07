@@ -1,4 +1,4 @@
-import{x as vs,u as Ys,m as ps,q as Os,r as ze}from"./index-J9mf0QUy.js";const Je=vs.create({}),Ts=Ys();Je.interceptors.request.use(function(e){const t=Ts.user.token;return e.url=e.url.replace("/api/","https://travelease-be.azurewebsites.net/"),console.log(e.url),t&&(e.headers.Authorization=`Bearer ${t}`),e});//! moment.js
+import{x as vs,u as Ys,m as ps,q as Os,r as ze}from"./index-PsjdFMY_.js";const Je=vs.create({}),Ts=Ys();Je.interceptors.request.use(function(e){const t=Ts.user.token;return e.url=e.url.replace("/api/","https://travelease-be.azurewebsites.net/"),console.log(e.url),t&&(e.headers.Authorization=`Bearer ${t}`),e});//! moment.js
 //! version : 2.30.1
 //! authors : Tim Wood, Iskren Chernev, Moment.js contributors
 //! license : MIT
